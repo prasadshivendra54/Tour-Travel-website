@@ -75,23 +75,23 @@ const Navbar = () => {
 
           {/* Mobile Menu Section */}
           <div className='md:hidden flex items-center gap-4'>
-          <DarkMode />
+            <DarkMode />
 
-          {
-            showMenu ? (
-              <HiMenuAlt1
-              onClick={toggleMenu}
-              className='cursor-pointer transition-all'
-              size={30}
-              />
-            ) : (
-              <HiMenuAlt3
-              onClick={toggleMenu}
-              className='cursor-pointer transition-all'
-              size={30}
-              />
-            )
-          }
+            {
+              showMenu ? (
+                <HiMenuAlt1
+                onClick={toggleMenu}
+                className='cursor-pointer transition-all'
+                size={30}
+                />
+              ) : (
+                <HiMenuAlt3
+                onClick={toggleMenu}
+                className='cursor-pointer transition-all'
+                size={30}
+                />
+              )
+            }
           </div>
         </div>
       </div>
